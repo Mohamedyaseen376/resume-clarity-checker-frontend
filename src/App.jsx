@@ -15,7 +15,7 @@ export default function App() {
     setResult("");
 
     try {
-      const response = await fetch("http://localhost:8080/api/analyze", {
+      const response = await fetch("https://resume-clarity-checker-backend.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "text/plain"
